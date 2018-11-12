@@ -1,7 +1,7 @@
 ## PgHero Heroku Standalone
 
-Do you want to run the [PgHero engine](https://github.com/ankane/pghero/), but don't want to
-add more dependencies to your existing Rails app? Then this little repo is your for!
+Want to run the [PgHero engine](https://github.com/ankane/pghero/), but don't want to
+add more dependencies to your existing Rails app? Then this little repo is for you!
 
 This a standalone Rails 4.2 app which can be easily deployed to Heroku. Just point it at 
 an existing Heroku database using `DATABASE_URL`.
