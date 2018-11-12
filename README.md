@@ -20,6 +20,7 @@ heroku config:set PGHERO_USERNAME=your_username
 heroku config:set PGHERO_PASSWORD=your_password
 heroku config:set DATABASE_URL=database_url_of_existing_app
 git push heroku master
+heroku open
 ```
 
 If Heroku doesn't allow you to detach the `DATABASE_URL` before deleting the database itself, run:
