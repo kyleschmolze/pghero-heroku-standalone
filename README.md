@@ -23,7 +23,7 @@ git push heroku master
 heroku open
 ```
 
-If Heroku doesn't allow you to reassign the `DATABASE_URL`, it probably wants you to destroy the database for your app. Head to [data.heroku.com][http://data.heroku.com/] and destroy the newly created database, or try:
+If Heroku doesn't allow you to reassign the `DATABASE_URL`, it probably wants you to destroy the database for your app. Head to [data.heroku.com](http://data.heroku.com/) and destroy the newly created database, or try:
 ```
 heroku addons:destroy heroku-postgresql
 ```
