@@ -1,23 +1,41 @@
+== PgHero Heroku Standalone
+
+This a standalone Rails 4.2 app for the [PgHero engine](https://github.com/ankane/pghero/)
+which can be easily deployed to Heroku.
+
+== Requirements
+I found it easiest to run this on Heroku's cedar-14 stack using Ruby 2.3.0.
+
+== Install
+
+```
+git clone kyleschmolze/pghero-heroku-standalone
+cd pghero-heroku-standalone
+heroku create my-pghero-app
+heroku stack:set cedar-14
+
+
+== Test Locally
+If you have a Postgres database running locally, you may:
+
+1. Update `config/database.yml` to use your postgres database.
+
+2.  `bundle install`
+
+3. `rails server`
+
+3. Open `localhost:3000`
+
+Todo
+- set git clone isntructions properly
+- reset database.yml
 == README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
 
 * Ruby version
 
 * System dependencies
 
 * Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
