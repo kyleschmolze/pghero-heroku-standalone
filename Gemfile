@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.0'
+ruby "~> 2.4.0"
 
 gem 'pghero'
 gem 'pg_query', '>= 0.9.0'
