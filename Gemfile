@@ -2,10 +2,11 @@ source 'https://rubygems.org'
 
 ruby "2.3.0"
 
+gem 'pg', '~> 0.21'
 gem 'pghero'
 gem 'pg_query', '>= 0.9.0'
 
-gem 'pg', '~> 0.21'
+gem 'puma'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'

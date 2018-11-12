@@ -12,7 +12,7 @@ I found it easiest to run this on Heroku's cedar-14 stack using Ruby 2.3.0.
 git clone kyleschmolze/pghero-heroku-standalone
 cd pghero-heroku-standalone
 heroku create my-pghero-app
-heroku stack:set cedar-14
+heroku stack:set heroku-16
 
 
 == Test Locally

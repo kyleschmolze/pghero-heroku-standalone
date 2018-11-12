@@ -81,6 +81,7 @@ GEM
     pg_query (1.1.0)
     pghero (2.2.0)
       activerecord
+    puma (3.1.0)
     rack (1.6.11)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -163,6 +164,7 @@ DEPENDENCIES
   pg (~> 0.21)
   pg_query (>= 0.9.0)
   pghero
+  puma
   rails (= 4.2.7.1)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
