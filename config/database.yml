@@ -1,14 +1,4 @@
 development:
   adapter: postgresql
-  database: groupmuse_development
-  host: localhost
-
-test: 
-  adapter: postgresql
-  database: groupmuse_test
-  host: localhost
-
-production:
-  adapter: postgresql
-  database: groupmuse_development
+  database: my_development_database
   host: localhost

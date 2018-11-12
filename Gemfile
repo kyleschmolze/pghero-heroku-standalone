@@ -8,6 +8,10 @@ gem 'pg_query', '>= 0.9.0'
 
 gem 'puma'
 
+# Security patches:
+gem "sprockets", ">= 3.7.2"
+gem "ffi", ">= 1.9.24"
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
 # Use SCSS for stylesheets
